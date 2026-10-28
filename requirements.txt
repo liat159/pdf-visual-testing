@@ -1,0 +1,6 @@
+
+pytest
+pymupdf
+eyes-images
+Pillow
+reportlab

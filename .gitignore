@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary test artifacts
+reports/*
+!reports/baseline.png
+
+# Generated PDF and rendered image
+sample_reports/monthly_orders_report.pdf
+sample_reports/monthly_orders_report.png
+
+# Local Git metadata
+.git-local/
