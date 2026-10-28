@@ -37,7 +37,7 @@ def generate_orders_report(output_path: Path) -> Path:
             name="ReportTitle",
             parent=styles["Title"],
             alignment=TA_CENTER,
-            textColor=colors.HexColor("#5D1739"),
+            textColor=colors.HexColor("#17365D"),
             spaceAfter=8 * mm,
         )
     )
